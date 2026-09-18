@@ -1,1 +1,7 @@
+def hitung_total_panen(daftar_berat_kg):
+    return sum(daftar_berat_kg)
 
+if __name__ == "__main__":
+    hasil_panen = [120.5, 98.0, 150.75, 87.25]
+    total = hitung_total_panen(hasil_panen)
+    print(f"Total hasil panen: {total} kg")
