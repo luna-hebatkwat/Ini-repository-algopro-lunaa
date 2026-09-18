@@ -5,3 +5,8 @@ if __name__ == "__main__":
     hasil_panen = [120.5, 98.0, 150.75, 87.25]
     total = hitung_total_panen(hasil_panen)
     print(f"Total hasil panen: {total} kg")
+
+def hitung_harga_setelah_diskon(harga_awal, persen_diskon=10):
+    diskon = harga_awal * (persen_diskon / 100)
+    return harga_awal - diskon
+
